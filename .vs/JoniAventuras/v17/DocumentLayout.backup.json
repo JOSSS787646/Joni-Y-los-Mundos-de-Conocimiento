@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\JoniAventuras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{597151ED-CC5D-5C3C-DCCC-D77A1B06C4E6}|Assembly-CSharp.csproj|c:\\users\\lenovo\\onedrive\\documentos\\creacion de videojuegos\\joniaventuras\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{597151ED-CC5D-5C3C-DCCC-D77A1B06C4E6}|Assembly-CSharp.csproj|C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\JoniAventuras\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597151ED-CC5D-5C3C-DCCC-D77A1B06C4E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\JoniAventuras\\Assets\\Scripts\\EnemyController.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowFwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAswIEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T19:08:06.004Z",
               "EditorCaption": ""
@@ -85,7 +85,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\JoniAventuras\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T04:42:34.511Z",
               "EditorCaption": ""

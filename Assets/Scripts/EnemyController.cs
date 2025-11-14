@@ -8,11 +8,12 @@ public class EnemyController : MonoBehaviour
     public float detectionRadius = 5.0f;
     public float speed = 2.0f;
     public float fuerzaRebote = 5f;
+    public int vida = 3;
 
     private Rigidbody2D rb;
     private Vector2 movement;
-
     private bool enMovimiento;
+    private bool muerto;
     private bool recibiendoDanio;
     private bool playerVivo;
 
@@ -29,12 +30,13 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerVivo)
+        if (playerVivo && !muerto)
         {
             Movimiento();
         }
 
         animator.SetBool("enMovimiento", enMovimiento);
+        animator.SetBool("muerto", muerto);
     }
 
     private void Movimiento()
@@ -95,14 +97,24 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    public void RecibeDanio(Vector2 direction, int contDanio)
+    public void RecibeDanio(Vector2 direction, int cantDanio)
     {
         if (!recibiendoDanio)
         {
+            vida -= cantDanio;
             recibiendoDanio = true;
-            Vector2 rebote = new Vector2(transform.position.x - direction.x, 0.2f).normalized;
-            rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
-            StartCoroutine(DesactivaDanio());
+            if(vida <= 0)
+            {
+                muerto = true;
+                enMovimiento = false;
+            }
+            else
+            {
+                Vector2 rebote = new Vector2(transform.position.x - direction.x, 0.2f).normalized;
+                rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
+                StartCoroutine(DesactivaDanio());
+            }
+                
         }
     }
 
@@ -111,6 +123,11 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         recibiendoDanio = false;
         rb.velocity = Vector2.zero;
+    }
+
+    public void DeleteBody()
+    {
+        Destroy(gameObject);
     }
 
     private void OnDrawGizmosSelected()

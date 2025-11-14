@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c66ea328e8c8f214982317edd5df2309
+guid: d0eba2ea97a114b43a46a9fa43a283e3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 175
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KillJoni_3
+      name: JoniKillv1.1_6
       rect:
         serializedVersion: 2
-        x: 40
-        y: 57
-        width: 242
-        height: 146
+        x: 0
+        y: 191
+        width: 69
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea699cc4b1fa2bc45bedeec12570bf83
-      internalID: 363067134
+      spriteID: d174519f7259a2f48a64546359cc12ad
+      internalID: 1275210115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KillJoni_4
+      name: JoniKillv1.1_7
       rect:
         serializedVersion: 2
-        x: 309
-        y: 56
-        width: 218
-        height: 146
+        x: 81
+        y: 191
+        width: 91
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +158,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f1f76be0d3276e43988db2b019c63b0
-      internalID: -1236472382
+      spriteID: 107bab5f891e4704eae0b01618ada5ac
+      internalID: 1250510386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoniKillv1.1_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 191
+        width: 95
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d760e83bf2605478b626757a1f8aa9
+      internalID: -1992969395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoniKillv1.1_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 191
+        width: 123
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c87a6701117104aa011d0516907444
+      internalID: 575469586
       vertices: []
       indices: 
       edges: []
@@ -175,14 +217,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      KillJoni_0: 1697040103
-      KillJoni_1: -556234013
-      KillJoni_2: 475136549
-      KillJoni_3: 363067134
-      KillJoni_4: -1236472382
-      KillJoni_5: -1704346007
-      KillJoni_6: -2135314689
-      KillJoni_7: -240303304
+      JoniKillv1.1_0: 762230966
+      JoniKillv1.1_1: 870972842
+      JoniKillv1.1_10: 575469586
+      JoniKillv1.1_2: -105537002
+      JoniKillv1.1_3: -363280919
+      JoniKillv1.1_4: -1807337509
+      JoniKillv1.1_5: 2040162641
+      JoniKillv1.1_6: 1275210115
+      JoniKillv1.1_7: 1250510386
+      JoniKillv1.1_8: -1992969395
+      JoniKillv1.1_9: -1456071098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

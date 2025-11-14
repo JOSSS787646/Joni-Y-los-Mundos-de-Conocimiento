@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c66ea328e8c8f214982317edd5df2309
+guid: 705187c1e7505f34bbbb27a901fe64dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 175
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KillJoni_3
+      name: JoniKillv2_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 57
-        width: 242
-        height: 146
+        x: 25
+        y: 239
+        width: 59
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea699cc4b1fa2bc45bedeec12570bf83
-      internalID: 363067134
+      spriteID: 302aa7d6b1762e74daf0b0dfe888a5e1
+      internalID: -1004067165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KillJoni_4
+      name: JoniKillv2_2
       rect:
         serializedVersion: 2
-        x: 309
-        y: 56
-        width: 218
-        height: 146
+        x: 123
+        y: 239
+        width: 100
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +158,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f1f76be0d3276e43988db2b019c63b0
-      internalID: -1236472382
+      spriteID: 90d7b25174d46d64d8c07768374e98c5
+      internalID: -1523077080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoniKillv2_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 239
+        width: 100
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744db5a3beef6b24d9f34b8a7ef3892f
+      internalID: 1193709742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoniKillv2_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 239
+        width: 112
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b1573a12207624a999defe2af8e831
+      internalID: 825874522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoniKillv2_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 46
+        width: 108
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaea61868f27da4d850ba91ee4e0ac9
+      internalID: 330214755
       vertices: []
       indices: 
       edges: []
@@ -175,14 +238,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      KillJoni_0: 1697040103
-      KillJoni_1: -556234013
-      KillJoni_2: 475136549
-      KillJoni_3: 363067134
-      KillJoni_4: -1236472382
-      KillJoni_5: -1704346007
-      KillJoni_6: -2135314689
-      KillJoni_7: -240303304
+      JoniKillv2_0: -2107609472
+      JoniKillv2_1: -1004067165
+      JoniKillv2_10: 330214755
+      JoniKillv2_11: 923521279
+      JoniKillv2_2: -1523077080
+      JoniKillv2_3: 1193709742
+      JoniKillv2_4: -875967446
+      JoniKillv2_5: 149946887
+      JoniKillv2_6: 825874522
+      JoniKillv2_7: -1662531500
+      JoniKillv2_8: -673975607
+      JoniKillv2_9: -1444754229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
