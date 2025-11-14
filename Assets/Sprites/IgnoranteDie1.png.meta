@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14c80594ff558f94a8175a2730c7f83b
+guid: 2c52d4d1d4cb3bc4eb945b8b83b0f927
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 220
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IgnoranteV2_0
+      name: IgnoranteDie1_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 296
-        width: 89
-        height: 86
+        x: 42
+        y: 18
+        width: 219
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36163f34bff3bcb4892b1e319f8480bc
-      internalID: 729955133
+      spriteID: b388871a91dfbd840bd13ac0a0795805
+      internalID: 1537961228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_1
+      name: IgnoranteDie1_1
       rect:
         serializedVersion: 2
-        x: 104
-        y: 297
-        width: 85
-        height: 77
+        x: 303
+        y: 22
+        width: 296
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88c45d7e16c59f04f975fdc2010327f7
-      internalID: -1538412558
+      spriteID: 835f1efce0525b84b9bbf6b4bf971cc0
+      internalID: -1158862598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_3
+      name: IgnoranteDie1_5
       rect:
         serializedVersion: 2
-        x: 189
-        y: 296
-        width: 95
-        height: 77
+        x: 641
+        y: 33
+        width: 270
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,134 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b9a3e0f1608c2541bfb232559046ec1
-      internalID: 290970412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IgnoranteV2_4
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 295
-        width: 93
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d7e78f0941f16409069827360d7e2f
-      internalID: 1750621371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IgnoranteV2_9
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 107
-        width: 86
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82429665bdf82ce42a7750701cf53a87
-      internalID: -1480200752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IgnoranteV2_11
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 107
-        width: 97
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81b9548fba1f4a74993b5ebb2e436153
-      internalID: -1250504332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IgnoranteV2_12
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 107
-        width: 100
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33d22f98943dcbe4f95c5349ec52adb0
-      internalID: -578793781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IgnoranteV2_13
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 107
-        width: 191
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79c8471a50f5d6b48bd35b9a563a46bb
-      internalID: -806351501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IgnoranteV2_2
-      rect:
-        serializedVersion: 2
-        x: 377
-        y: 295
-        width: 106
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5049052121fc6e408b0f5f3118939d4
-      internalID: 1634652910
+      spriteID: 4c18eb142d865fa4182eab845f4944a3
+      internalID: 290196694
       vertices: []
       indices: 
       edges: []
@@ -322,25 +196,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IgnoranteV2_0: 729955133
-      IgnoranteV2_1: -1538412558
-      IgnoranteV2_10: -2081148211
-      IgnoranteV2_11: -1250504332
-      IgnoranteV2_12: -578793781
-      IgnoranteV2_13: -806351501
-      IgnoranteV2_14: -1076601780
-      IgnoranteV2_15: 917142615
-      IgnoranteV2_16: 2026058592
-      IgnoranteV2_17: 1666331631
-      IgnoranteV2_18: -222199428
-      IgnoranteV2_2: 1634652910
-      IgnoranteV2_3: 290970412
-      IgnoranteV2_4: 1750621371
-      IgnoranteV2_5: 1305500028
-      IgnoranteV2_6: -1902858018
-      IgnoranteV2_7: -1382169608
-      IgnoranteV2_8: 2017234418
-      IgnoranteV2_9: -1480200752
+      IgnoranteDie1_0: 1537961228
+      IgnoranteDie1_1: -1158862598
+      IgnoranteDie1_2: -552887981
+      IgnoranteDie1_3: 2083409446
+      IgnoranteDie1_4: 450348033
+      IgnoranteDie1_5: 290196694
+      IgnoranteDie1_6: 670674698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

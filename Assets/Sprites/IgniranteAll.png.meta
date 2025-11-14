@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14c80594ff558f94a8175a2730c7f83b
+guid: bae6567cf3245ce48afd3b71977c8d0c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IgnoranteV2_0
+      name: IgniranteAll_1
       rect:
         serializedVersion: 2
         x: 12
-        y: 296
-        width: 89
-        height: 86
+        y: 371
+        width: 118
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36163f34bff3bcb4892b1e319f8480bc
-      internalID: 729955133
+      spriteID: 69cfd1bb7bc7a51418e1f1247fe3a203
+      internalID: 9239283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_1
+      name: IgniranteAll_3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 297
-        width: 85
-        height: 77
+        x: 139
+        y: 367
+        width: 118
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88c45d7e16c59f04f975fdc2010327f7
-      internalID: -1538412558
+      spriteID: 2bc9ec4acc49aec40b9fbb38016e4de3
+      internalID: 191691446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_3
+      name: IgniranteAll_5
       rect:
         serializedVersion: 2
-        x: 189
-        y: 296
-        width: 95
-        height: 77
+        x: 263
+        y: 367
+        width: 117
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b9a3e0f1608c2541bfb232559046ec1
-      internalID: 290970412
+      spriteID: f582d4c64376baf42b92236482cf9530
+      internalID: -879060003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_4
+      name: IgniranteAll_7
       rect:
         serializedVersion: 2
-        x: 284
-        y: 295
-        width: 93
-        height: 77
+        x: 384
+        y: 367
+        width: 118
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83d7e78f0941f16409069827360d7e2f
-      internalID: 1750621371
+      spriteID: 5df8c7026be37f74ea847e0c42566c41
+      internalID: 57965877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_9
+      name: IgniranteAll_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 249
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12eb5a84e7cf5945b84477c2ea2c526
+      internalID: 1883551806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IgniranteAll_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 249
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01432817675783243b7f50e5ab000afc
+      internalID: 889266947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IgniranteAll_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 249
+        width: 117
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dda2897da6e3945b0254a685866aa2
+      internalID: 457396624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IgniranteAll_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 249
+        width: 117
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1c7acd04438094191f0a4511ddf95b
+      internalID: 262932306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IgniranteAll_17
       rect:
         serializedVersion: 2
         x: 16
-        y: 107
-        width: 86
-        height: 76
+        y: 128
+        width: 119
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82429665bdf82ce42a7750701cf53a87
-      internalID: -1480200752
+      spriteID: 13a39ae4eb625aa47b1b9fc6ee916a1a
+      internalID: 1714855678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_11
+      name: IgniranteAll_19
       rect:
         serializedVersion: 2
-        x: 99
-        y: 107
-        width: 97
-        height: 83
+        x: 140
+        y: 128
+        width: 120
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81b9548fba1f4a74993b5ebb2e436153
-      internalID: -1250504332
+      spriteID: 211ee373bfdced548bd169d85b17e28b
+      internalID: -827113324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_12
+      name: IgniranteAll_21
       rect:
         serializedVersion: 2
-        x: 197
-        y: 107
-        width: 100
-        height: 79
+        x: 264
+        y: 128
+        width: 119
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33d22f98943dcbe4f95c5349ec52adb0
-      internalID: -578793781
+      spriteID: bce54fac58a695046b9ddb1c2b15bbce
+      internalID: -15430314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_13
+      name: IgniranteAll_23
       rect:
         serializedVersion: 2
-        x: 290
-        y: 107
-        width: 191
-        height: 76
+        x: 388
+        y: 128
+        width: 119
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79c8471a50f5d6b48bd35b9a563a46bb
-      internalID: -806351501
+      spriteID: c81839a861d359e4a8be3d9da2b93b27
+      internalID: 174757442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IgnoranteV2_2
+      name: IgniranteAll_25
       rect:
         serializedVersion: 2
-        x: 377
-        y: 295
-        width: 106
-        height: 79
+        x: 16
+        y: 8
+        width: 119
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +389,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5049052121fc6e408b0f5f3118939d4
-      internalID: 1634652910
+      spriteID: b69e151c031423a4f94491ff506f9f01
+      internalID: -1467476007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IgniranteAll_27
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 7
+        width: 120
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf7d4f46bee6504983dff8118d54ae0
+      internalID: -647608852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IgniranteAll_29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 7
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dfd0ba909fb204d910b39ca52cc587
+      internalID: 1291128161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IgniranteAll_31
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 7
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3747b12e67a3c1d45911539d2b8befe8
+      internalID: -354567190
       vertices: []
       indices: 
       edges: []
@@ -322,25 +469,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IgnoranteV2_0: 729955133
-      IgnoranteV2_1: -1538412558
-      IgnoranteV2_10: -2081148211
-      IgnoranteV2_11: -1250504332
-      IgnoranteV2_12: -578793781
-      IgnoranteV2_13: -806351501
-      IgnoranteV2_14: -1076601780
-      IgnoranteV2_15: 917142615
-      IgnoranteV2_16: 2026058592
-      IgnoranteV2_17: 1666331631
-      IgnoranteV2_18: -222199428
-      IgnoranteV2_2: 1634652910
-      IgnoranteV2_3: 290970412
-      IgnoranteV2_4: 1750621371
-      IgnoranteV2_5: 1305500028
-      IgnoranteV2_6: -1902858018
-      IgnoranteV2_7: -1382169608
-      IgnoranteV2_8: 2017234418
-      IgnoranteV2_9: -1480200752
+      IgniranteAll_0: 1562526145
+      IgniranteAll_1: 9239283
+      IgniranteAll_10: 1278343689
+      IgniranteAll_11: 889266947
+      IgniranteAll_12: 212688047
+      IgniranteAll_13: 457396624
+      IgniranteAll_14: 655850502
+      IgniranteAll_15: 262932306
+      IgniranteAll_16: -918037593
+      IgniranteAll_17: 1714855678
+      IgniranteAll_18: -167603037
+      IgniranteAll_19: -827113324
+      IgniranteAll_2: -1005435200
+      IgniranteAll_20: 247807709
+      IgniranteAll_21: -15430314
+      IgniranteAll_22: 1395643675
+      IgniranteAll_23: 174757442
+      IgniranteAll_24: -136458591
+      IgniranteAll_25: -1467476007
+      IgniranteAll_26: 1737056600
+      IgniranteAll_27: -647608852
+      IgniranteAll_28: -1114010151
+      IgniranteAll_29: 1291128161
+      IgniranteAll_3: 191691446
+      IgniranteAll_30: -1808849284
+      IgniranteAll_31: -354567190
+      IgniranteAll_4: 2082417980
+      IgniranteAll_5: -879060003
+      IgniranteAll_6: -426512864
+      IgniranteAll_7: 57965877
+      IgniranteAll_8: 324041604
+      IgniranteAll_9: 1883551806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
