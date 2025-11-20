@@ -19,15 +19,19 @@ public class DisparoLibroRojo : MonoBehaviour
     public float tiempoEsperaDisparo;
 
     public Animator animator;
+    private PlayerController player;
 
 
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     void Update()
     {
+        if (player == null || player.muerto)
+            return;
+
         jugadorEnRango = Physics2D.Raycast(controladorDisparo.position, transform.right, distanciaLinea, capaJugador);
         
         if (jugadorEnRango) 

@@ -27,6 +27,13 @@ public class BalaEnemigo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Escudo"))
+        {
+            // La bala se destruye y no hace daño
+            Destroy(gameObject);
+            return;
+        }
+
         if (collision.TryGetComponent(out PlayerController playerController))
         {
             playerController.RecibeDanio(transform.position, danio);

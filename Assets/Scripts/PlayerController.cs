@@ -16,11 +16,13 @@ public class PlayerController : MonoBehaviour
     private bool recibiendoDanio;
     private bool atacando;
     public bool muerto;
+    public bool protegiendo;
+    public GameObject escudo;
+
 
     private Rigidbody2D rb;
-
     public Animator animator;
-    // Start is called before the first frame update
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -34,7 +36,7 @@ public class PlayerController : MonoBehaviour
             if (!atacando)
             {
                 Movimiento();
-
+                DetectarSuelo();
 
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRayCast, capaSuelo);
                 enSuelo = hit.collider != null;
@@ -47,6 +49,17 @@ public class PlayerController : MonoBehaviour
 
         }
 
+        // ----- ACTIVAR PROTECCIÓN -----
+        if (Input.GetKey(KeyCode.Tab))
+        {
+            ActivarEscudo();
+        }
+        else
+        {
+            DesactivarEscudo();
+        }
+
+
 
         if (Input.GetKeyDown(KeyCode.Z) && !atacando && enSuelo)
         {
@@ -57,6 +70,33 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("recibeDanio", recibiendoDanio);
         animator.SetBool("Atacando", atacando);
         animator.SetBool("muerto", muerto);
+        animator.SetBool("protegiendo", protegiendo);
+
+
+        if (Input.GetKeyDown(KeyCode.Q) && !atacando && enSuelo)
+        {
+            animator.SetTrigger("disparo");
+        }
+
+    }
+
+    void ActivarEscudo()
+    {
+        protegiendo = true;
+        escudo.SetActive(true);
+    }
+
+    void DesactivarEscudo()
+    {
+        protegiendo = false;
+        escudo.SetActive(false);
+    }
+
+
+    void DetectarSuelo()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRayCast, capaSuelo);
+        enSuelo = hit.collider != null;
     }
 
     private void Movimiento()
@@ -82,6 +122,10 @@ public class PlayerController : MonoBehaviour
 
     public void RecibeDanio(Vector2 direction, int cantDanio)
     {
+
+        if (protegiendo)
+            return;
+
         if (!recibiendoDanio)
         {
             recibiendoDanio = true;
@@ -115,6 +159,13 @@ public class PlayerController : MonoBehaviour
     {
         atacando = false;
     }
+
+    public void DeleteBody()
+    {
+        Destroy(gameObject);
+    }
+
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

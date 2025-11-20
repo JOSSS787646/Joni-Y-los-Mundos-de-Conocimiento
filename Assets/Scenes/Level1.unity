@@ -122,6 +122,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &88549330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 88549331}
+  m_Layer: 6
+  m_Name: puntoDisparo
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &88549331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88549330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.62, y: 0.08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 797304350}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &215126008
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,6 +221,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &400746272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400746273}
+  - component: {fileID: 400746274}
+  m_Layer: 6
+  m_Name: Escudo
+  m_TagString: Escudo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400746273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400746272}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 797304350}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &400746274
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400746272}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.22378807, y: -0.02422008}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.43145666, y: 1.2664225}
+  m_EdgeRadius: 0
 --- !u!1 &508237643
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +508,7 @@ GameObject:
   - component: {fileID: 797304352}
   - component: {fileID: 797304354}
   - component: {fileID: 797304353}
+  - component: {fileID: 797304355}
   m_Layer: 6
   m_Name: Joni
   m_TagString: Player
@@ -473,6 +582,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1490121871}
+  - {fileID: 88549331}
+  - {fileID: 400746273}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &797304351
@@ -589,7 +700,26 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   muerto: 0
+  protegiendo: 0
+  escudo: {fileID: 400746272}
   animator: {fileID: 797304351}
+--- !u!114 &797304355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797304348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9766bd9899a806241a7495c89606255b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoDisparo: {fileID: 88549331}
+  balaPrefab: {fileID: 7630203351277483673, guid: e383bf410fb665b46912f82269513d87, type: 3}
+  tiempoEntreDisparos: 3
+  tiempoEsperaDisparo: 0.2
+  ultimoDisparo: -3
 --- !u!1 &883235521
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +864,7 @@ GameObject:
   - component: {fileID: 963220505}
   - component: {fileID: 963220504}
   - component: {fileID: 963220506}
+  - component: {fileID: 963220507}
   m_Layer: 0
   m_Name: LibroRojo
   m_TagString: Untagged
@@ -823,7 +954,7 @@ Transform:
   m_GameObject: {fileID: 963220498}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 7.81, y: -2.55, z: 0}
+  m_LocalPosition: {x: 7.64, y: -2.54, z: 0}
   m_LocalScale: {x: 1.3326, y: 1.3376, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -925,6 +1056,24 @@ MonoBehaviour:
   tiempoUltimoDisparo: -3
   tiempoEsperaDisparo: 0.1
   animator: {fileID: 963220499}
+--- !u!114 &963220507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963220498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9eaf1e39fdc8b4a99e4024259da538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  detectionRadius: 8.33
+  speed: 2
+  fuerzaRebote: 5
+  vida: 30
+  direccion: 1
 --- !u!1 &1217459076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,7 +1461,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3766558407318220729, guid: aaccb0df30741d54d96e31e9a41ea560, type: 3}
       propertyPath: distanciaLinea
-      value: 2.63
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5563479770880648526, guid: aaccb0df30741d54d96e31e9a41ea560, type: 3}
       propertyPath: m_Name
@@ -1320,11 +1469,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5990742370764254833, guid: aaccb0df30741d54d96e31e9a41ea560, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.92
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 5990742370764254833, guid: aaccb0df30741d54d96e31e9a41ea560, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.21
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: 5990742370764254833, guid: aaccb0df30741d54d96e31e9a41ea560, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1362,6 +1511,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 797304350}
+    - target: {fileID: 7534096391753956128, guid: aaccb0df30741d54d96e31e9a41ea560, type: 3}
+      propertyPath: detectionRadius
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
