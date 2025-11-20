@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cb29e30586e4e524690f0cbb006a3de1
+guid: 09f1398cd896a5143984a31964b8cbb8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 120
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LibroRojoV1_3
+      name: LibroRojoAttack_11
       rect:
         serializedVersion: 2
-        x: 325
-        y: 281
-        width: 162
-        height: 174
+        x: 43
+        y: 204
+        width: 96
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f144e07ec443e4d4989977dfe6f5c8d5
-      internalID: -515777668
+      spriteID: cc144b564597d4249a80964967114b5b
+      internalID: 1056005691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LibroRojoV1_8
+      name: LibroRojoAttack_12
       rect:
         serializedVersion: 2
-        x: 172
-        y: 292
-        width: 145
-        height: 165
+        x: 187
+        y: 204
+        width: 105
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcf4dd8f1468d234486638154ca16997
-      internalID: 1684106328
+      spriteID: e1748e2e404b4c447b953e72baa132d4
+      internalID: -720626078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LibroRojoV1_10
+      name: LibroRojoAttack_16
       rect:
         serializedVersion: 2
-        x: 15
-        y: 287
-        width: 146
-        height: 163
+        x: 321
+        y: 204
+        width: 129
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,71 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45851b8ce1dc6b848b3019881fff8a01
-      internalID: 1200319955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LibroRojoV1_25
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 54
-        width: 141
-        height: 161
-      alignment: 9
-      pivot: {x: 0.6424136, y: 0.39508736}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d70f77e9474be24bbcef9b8a92d5b75
-      internalID: -1234209388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LibroRojoV1_29
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 42
-        width: 153
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c39e6fa56ed51d4aacdf459dad52204
-      internalID: -1756016346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LibroRojoV1_31
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 47
-        width: 149
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11131bdf9f185df4e8a24f651032d9ac
-      internalID: -1839877357
+      spriteID: 82109894dfa7b204890f93ae0d777153
+      internalID: -999719675
       vertices: []
       indices: 
       edges: []
@@ -259,53 +196,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LibroRojoV1_0: 1644850598
-      LibroRojoV1_1: 1748171630
-      LibroRojoV1_10: 1200319955
-      LibroRojoV1_11: 786405337
-      LibroRojoV1_12: 667496944
-      LibroRojoV1_13: 1280607907
-      LibroRojoV1_14: 1663937538
-      LibroRojoV1_15: -1493131344
-      LibroRojoV1_16: 1676745047
-      LibroRojoV1_17: -149896738
-      LibroRojoV1_18: -1354629714
-      LibroRojoV1_19: 653522011
-      LibroRojoV1_2: -426067230
-      LibroRojoV1_20: -1277606968
-      LibroRojoV1_21: 93037138
-      LibroRojoV1_22: -1461681019
-      LibroRojoV1_23: 554188595
-      LibroRojoV1_24: -87000011
-      LibroRojoV1_25: -1234209388
-      LibroRojoV1_26: -1394176578
-      LibroRojoV1_27: -1096947483
-      LibroRojoV1_28: 1361200129
-      LibroRojoV1_29: -1756016346
-      LibroRojoV1_3: -515777668
-      LibroRojoV1_30: -1590992170
-      LibroRojoV1_31: -1839877357
-      LibroRojoV1_32: 749291104
-      LibroRojoV1_33: 875331594
-      LibroRojoV1_34: 529783459
-      LibroRojoV1_35: 596095496
-      LibroRojoV1_36: 506060396
-      LibroRojoV1_37: -1516817570
-      LibroRojoV1_38: -78811929
-      LibroRojoV1_39: 752954438
-      LibroRojoV1_4: 473964669
-      LibroRojoV1_40: -1828937249
-      LibroRojoV1_41: -1161413897
-      LibroRojoV1_42: -1600842286
-      LibroRojoV1_43: -1460817475
-      LibroRojoV1_44: -1566567745
-      LibroRojoV1_45: 511938139
-      LibroRojoV1_46: 1068791565
-      LibroRojoV1_5: 2006265839
-      LibroRojoV1_6: 1805175624
-      LibroRojoV1_7: -974915137
-      LibroRojoV1_8: 1684106328
-      LibroRojoV1_9: 2076012372
+      LibroRojoAttack_0: -247804793
+      LibroRojoAttack_1: 2072484105
+      LibroRojoAttack_10: 1052439666
+      LibroRojoAttack_11: 1056005691
+      LibroRojoAttack_12: -720626078
+      LibroRojoAttack_13: -1976487713
+      LibroRojoAttack_14: -1244110049
+      LibroRojoAttack_15: 1878685027
+      LibroRojoAttack_16: -999719675
+      LibroRojoAttack_17: 724010213
+      LibroRojoAttack_18: 762095768
+      LibroRojoAttack_19: 1887867767
+      LibroRojoAttack_2: 1245980094
+      LibroRojoAttack_20: 1741881773
+      LibroRojoAttack_21: -1959975088
+      LibroRojoAttack_22: 117622990
+      LibroRojoAttack_23: -1732816667
+      LibroRojoAttack_24: -249603212
+      LibroRojoAttack_25: 729581738
+      LibroRojoAttack_26: 1593048762
+      LibroRojoAttack_27: 2043039900
+      LibroRojoAttack_28: 1246593842
+      LibroRojoAttack_29: -309567248
+      LibroRojoAttack_3: 372215153
+      LibroRojoAttack_30: -1601357681
+      LibroRojoAttack_31: 460156956
+      LibroRojoAttack_4: -1159582509
+      LibroRojoAttack_5: 1250671903
+      LibroRojoAttack_6: -1864051896
+      LibroRojoAttack_7: 1258290635
+      LibroRojoAttack_8: -2143666094
+      LibroRojoAttack_9: -1233449535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

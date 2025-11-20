@@ -16,6 +16,7 @@ public class EnemyController : MonoBehaviour
     private bool muerto;
     private bool recibiendoDanio;
     private bool playerVivo;
+    public int direccion = 1;
 
     private Animator animator;
 
@@ -49,10 +50,12 @@ public class EnemyController : MonoBehaviour
 
             if (direction.x < 0)
             {
+                direccion = -1;
                 transform.localScale = new Vector3(-1, 1, 1);
             }
             if (direction.x > 0)
             {
+                direccion = 1;
                 transform.localScale = new Vector3(1, 1, 1);
             }
 
