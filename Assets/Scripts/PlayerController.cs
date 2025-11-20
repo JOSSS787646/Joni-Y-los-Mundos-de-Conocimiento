@@ -20,13 +20,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
 
     public Animator animator;
-    // Start is called before the first frame update
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!muerto)
@@ -34,7 +33,6 @@ public class PlayerController : MonoBehaviour
             if (!atacando)
             {
                 Movimiento();
-
 
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRayCast, capaSuelo);
                 enSuelo = hit.collider != null;
@@ -44,9 +42,7 @@ public class PlayerController : MonoBehaviour
                     rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
                 }
             }
-
         }
-
 
         if (Input.GetKeyDown(KeyCode.Z) && !atacando && enSuelo)
         {
@@ -66,13 +62,9 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("movement", velocidadX * velocidad);
 
         if (velocidadX < 0)
-        {
             transform.localScale = new Vector3(-1, 1, 1);
-        }
         if (velocidadX > 0)
-        {
             transform.localScale = new Vector3(1, 1, 1);
-        }
 
         Vector3 posicion = transform.position;
 
@@ -91,12 +83,11 @@ public class PlayerController : MonoBehaviour
             {
                 muerto = true;
             }
-            if (!muerto)
+            else
             {
                 Vector2 rebote = new Vector2(transform.position.x - direction.x, 0.2f).normalized;
                 rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
             }
-           
         }
     }
 
@@ -115,6 +106,7 @@ public class PlayerController : MonoBehaviour
     {
         atacando = false;
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
