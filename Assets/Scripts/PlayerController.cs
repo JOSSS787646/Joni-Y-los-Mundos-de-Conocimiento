@@ -16,9 +16,11 @@ public class PlayerController : MonoBehaviour
     private bool recibiendoDanio;
     private bool atacando;
     public bool muerto;
+    public bool protegiendo;
+    public GameObject escudo;
+
 
     private Rigidbody2D rb;
-
     public Animator animator;
 
     void Start()
@@ -26,6 +28,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    // Update is called once per frame
     void Update()
     {
         if (!muerto)
@@ -33,6 +36,7 @@ public class PlayerController : MonoBehaviour
             if (!atacando)
             {
                 Movimiento();
+                DetectarSuelo();
 
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRayCast, capaSuelo);
                 enSuelo = hit.collider != null;
@@ -42,7 +46,20 @@ public class PlayerController : MonoBehaviour
                     rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
                 }
             }
+
         }
+
+        // ----- ACTIVAR PROTECCIÓN -----
+        if (Input.GetKey(KeyCode.Tab))
+        {
+            ActivarEscudo();
+        }
+        else
+        {
+            DesactivarEscudo();
+        }
+
+
 
         if (Input.GetKeyDown(KeyCode.Z) && !atacando && enSuelo)
         {
@@ -53,6 +70,33 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("recibeDanio", recibiendoDanio);
         animator.SetBool("Atacando", atacando);
         animator.SetBool("muerto", muerto);
+        animator.SetBool("protegiendo", protegiendo);
+
+
+        if (Input.GetKeyDown(KeyCode.Q) && !atacando && enSuelo)
+        {
+            animator.SetTrigger("disparo");
+        }
+
+    }
+
+    void ActivarEscudo()
+    {
+        protegiendo = true;
+        escudo.SetActive(true);
+    }
+
+    void DesactivarEscudo()
+    {
+        protegiendo = false;
+        escudo.SetActive(false);
+    }
+
+
+    void DetectarSuelo()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRayCast, capaSuelo);
+        enSuelo = hit.collider != null;
     }
 
     private void Movimiento()
@@ -62,9 +106,13 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("movement", velocidadX * velocidad);
 
         if (velocidadX < 0)
+        {
             transform.localScale = new Vector3(-1, 1, 1);
+        }
         if (velocidadX > 0)
+        {
             transform.localScale = new Vector3(1, 1, 1);
+        }
 
         Vector3 posicion = transform.position;
 
@@ -74,6 +122,10 @@ public class PlayerController : MonoBehaviour
 
     public void RecibeDanio(Vector2 direction, int cantDanio)
     {
+
+        if (protegiendo)
+            return;
+
         if (!recibiendoDanio)
         {
             recibiendoDanio = true;
@@ -83,11 +135,12 @@ public class PlayerController : MonoBehaviour
             {
                 muerto = true;
             }
-            else
+            if (!muerto)
             {
                 Vector2 rebote = new Vector2(transform.position.x - direction.x, 0.2f).normalized;
                 rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
             }
+           
         }
     }
 
@@ -106,6 +159,12 @@ public class PlayerController : MonoBehaviour
     {
         atacando = false;
     }
+
+    public void DeleteBody()
+    {
+        Destroy(gameObject);
+    }
+
 
     private void OnDrawGizmos()
     {
