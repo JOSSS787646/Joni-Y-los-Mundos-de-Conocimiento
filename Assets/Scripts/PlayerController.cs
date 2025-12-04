@@ -1,6 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+
+using UnityEngine.SceneManagement;   
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,6 +26,12 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     public Animator animator;
+    public Button botonReiniciar;
+
+
+
+
+    public GameObject finDelJuego;
 
     void Start()
     {
@@ -49,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        // ----- ACTIVAR PROTECCI�N -----
+        // ----- ACTIVAR PROTECCIÓN -----
         if (Input.GetKey(KeyCode.Tab))
         {
             ActivarEscudo();
@@ -134,6 +144,13 @@ public class PlayerController : MonoBehaviour
             if (vida <= 0)
             {
                 muerto = true;
+                finDelJuego.SetActive(true);
+
+                botonReiniciar.gameObject.SetActive(true);
+
+                // HACEMOS QUE EL BOTÓN LLAME A REINICIAR NIVEL
+                botonReiniciar.onClick.AddListener(ReiniciarNivel);
+
             }
             if (!muerto)
             {
@@ -170,5 +187,12 @@ public class PlayerController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * longitudRayCast);
+    }
+
+
+    // ← MÉTODO NUEVO PARA REINICIAR NIVEL
+    public void ReiniciarNivel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
