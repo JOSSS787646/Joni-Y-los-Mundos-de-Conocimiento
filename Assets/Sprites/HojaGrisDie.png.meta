@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 67243a5beee504d4288cd07393ad190b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HojaGrisDie_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 165
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e89dfef10098b941921f37fb3243555
+      internalID: -661866554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaGrisDie_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 164
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e924e1d0b3e8dc1409d27942cb4510ce
+      internalID: -1619357879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaGrisDie_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aeb4687917658468af1c5e8c53de54
+      internalID: 1850452267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojaGrisDie_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 3
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb37672f854641e469e4a298ce414979
+      internalID: 569567561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HojaGrisDie_0: 569567561
+      HojaGrisDie_1: -233320788
+      HojaGrisDie_10: -685607316
+      HojaGrisDie_11: 717573474
+      HojaGrisDie_12: -749831103
+      HojaGrisDie_13: -1207770053
+      HojaGrisDie_14: -362293629
+      HojaGrisDie_15: 108330035
+      HojaGrisDie_16: 1707078163
+      HojaGrisDie_17: -177465183
+      HojaGrisDie_18: 690987960
+      HojaGrisDie_19: -684246084
+      HojaGrisDie_2: 304794883
+      HojaGrisDie_20: 368594797
+      HojaGrisDie_21: 1874232999
+      HojaGrisDie_22: -1671919991
+      HojaGrisDie_23: -414340545
+      HojaGrisDie_24: 1428904723
+      HojaGrisDie_25: -112627314
+      HojaGrisDie_26: -1917768632
+      HojaGrisDie_27: -778658762
+      HojaGrisDie_28: -904652935
+      HojaGrisDie_29: -659960519
+      HojaGrisDie_3: -1747968455
+      HojaGrisDie_30: -2016439259
+      HojaGrisDie_31: -364731919
+      HojaGrisDie_32: 1633312970
+      HojaGrisDie_33: 274870101
+      HojaGrisDie_34: -84676538
+      HojaGrisDie_35: -65591016
+      HojaGrisDie_36: -909165052
+      HojaGrisDie_37: -198057569
+      HojaGrisDie_38: -1648804469
+      HojaGrisDie_39: -1665213079
+      HojaGrisDie_4: -661866554
+      HojaGrisDie_40: -2037987710
+      HojaGrisDie_41: 1060664740
+      HojaGrisDie_42: -1141739088
+      HojaGrisDie_43: -1312929303
+      HojaGrisDie_44: -870737966
+      HojaGrisDie_45: 2000521652
+      HojaGrisDie_46: 834382393
+      HojaGrisDie_47: 317206046
+      HojaGrisDie_48: -819191849
+      HojaGrisDie_49: 753287863
+      HojaGrisDie_5: -1619357879
+      HojaGrisDie_50: 872993752
+      HojaGrisDie_6: 1668204516
+      HojaGrisDie_7: 337849900
+      HojaGrisDie_8: 1850452267
+      HojaGrisDie_9: 1430085402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

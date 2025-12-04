@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|c:\\users\\lenovo\\onedrive\\documentos\\creacion de videojuegos\\joni-y-los-mundos-de-conocimiento\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|c:\\users\\lenovo\\onedrive\\documentos\\creacion de videojuegos\\joni-y-los-mundos-de-conocimiento\\assets\\scripts\\disparoenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disparoenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|c:\\users\\lenovo\\onedrive\\documentos\\creacion de videojuegos\\joni-y-los-mundos-de-conocimiento\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|c:\\users\\lenovo\\onedrive\\documentos\\creacion de videojuegos\\joni-y-los-mundos-de-conocimiento\\assets\\scripts\\disparolibrorojo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disparolibrorojo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|c:\\users\\lenovo\\onedrive\\documentos\\creacion de videojuegos\\joni-y-los-mundos-de-conocimiento\\assets\\scripts\\balalibrorojo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474F25CD-6AD6-0B2E-36B4-75A349093F5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\balalibrorojo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisparoEnemigo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\DisparoEnemigo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DisparoEnemigo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\DisparoEnemigo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DisparoEnemigo.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:07:52.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:57:00.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DisparoLibroRojo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\DisparoLibroRojo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DisparoLibroRojo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\DisparoLibroRojo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DisparoLibroRojo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:13:52.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwCwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:12:33.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BalaLibroRojo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\BalaLibroRojo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BalaLibroRojo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\Creacion de Videojuegos\\Joni-Y-los-Mundos-de-Conocimiento\\Assets\\Scripts\\BalaLibroRojo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BalaLibroRojo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:11:33.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
